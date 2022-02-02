@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9055355770059828446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9055355770059828432}
+  - component: {fileID: 9055355770059828433}
+  - component: {fileID: 9055355770059828434}
+  - component: {fileID: 9055355770059828435}
+  - component: {fileID: 9055355770059828437}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9055355770059828432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9055355770059828446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9055355770059828433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9055355770059828446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b567e2a2051ca4ba1d39e64ec7ce3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9055355770059828434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9055355770059828446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e517133b4af6bb4da4b5ac670f6572c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9055355770059828435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9055355770059828446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a453dc2f745102842a2a5f75ec297a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9055355770059828437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9055355770059828446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1832d4aa955527d4eaa63b54190fb993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cards:
+  - card: {fileID: 1297552362652504258, guid: ddedae916e124fb4e8b8b11033b53009, type: 3}
+    Face: 0
+    Suit: 0
+  - card: {fileID: 6860711285516662853, guid: fd9ccfd8273f5c34ab1533f9a61ccba4, type: 3}
+    Face: 1
+    Suit: 0
+  - card: {fileID: 1845551234929588167, guid: 05c1820df40c9b44bad37bd2063650d4, type: 3}
+    Face: 2
+    Suit: 0
+  - card: {fileID: 5796366036280172477, guid: d9d2c1e9c34279943bd0b9ab2a9561a4, type: 3}
+    Face: 3
+    Suit: 0
+  - card: {fileID: 8291177130221859953, guid: fab4dfbc719ae4f46ad354281fa3a043, type: 3}
+    Face: 4
+    Suit: 0
+  - card: {fileID: 4513347400956146950, guid: 900d9b2726ba6a94d81c69fdb2261a72, type: 3}
+    Face: 5
+    Suit: 0
+  - card: {fileID: 6913483456425689242, guid: 5aaf3d8e2bed27441aeffff630e584c8, type: 3}
+    Face: 6
+    Suit: 0
+  - card: {fileID: 7116505863239034641, guid: eaa00a692988d42498fa49feec1eefc1, type: 3}
+    Face: 7
+    Suit: 0
+  - card: {fileID: 5714037442724325590, guid: 71a4b60781c0c95449fafde2abdc3ae3, type: 3}
+    Face: 8
+    Suit: 0
+  - card: {fileID: 9017512946775684219, guid: 30373d0b0f23a7949b43f2f95c92658c, type: 3}
+    Face: 9
+    Suit: 0
+  - card: {fileID: 2682602272728974552, guid: c0ee0766c1d106d4e94a884fb1e6c96f, type: 3}
+    Face: 10
+    Suit: 0
+  - card: {fileID: 7602427175277434056, guid: 20b870cf52eed1d409682d4a85ed4c72, type: 3}
+    Face: 11
+    Suit: 0
+  - card: {fileID: 1792508591294216720, guid: 07199c28c472eeb4581d800e69a81708, type: 3}
+    Face: 12
+    Suit: 0
+  - card: {fileID: 1964519104547516705, guid: f92670af068d9a545abd92fb7496034c, type: 3}
+    Face: 0
+    Suit: 1
+  - card: {fileID: 4172122700008866343, guid: a62e49760f78b7341a0c294cec0f3bb3, type: 3}
+    Face: 1
+    Suit: 1
+  - card: {fileID: 1296002014215835119, guid: 6fd5e5a414ca34e459b8ef008c7ab5d5, type: 3}
+    Face: 2
+    Suit: 1
+  - card: {fileID: 2986985715326180662, guid: f94eb2626f40b7540a27f9777d78fd80, type: 3}
+    Face: 3
+    Suit: 1
+  - card: {fileID: 6714446200939638386, guid: 8d84c85b64557b740bdb17e75216830a, type: 3}
+    Face: 4
+    Suit: 1
+  - card: {fileID: 6617104358085503060, guid: 5631634469e23ee4e8f756f28cacad32, type: 3}
+    Face: 5
+    Suit: 1
+  - card: {fileID: 547226966713193625, guid: 5ef84debfe88c044493a5187c00ba91b, type: 3}
+    Face: 6
+    Suit: 1
+  - card: {fileID: 7146592453810395939, guid: f1f246364c79ef34696aed2d19535ad3, type: 3}
+    Face: 7
+    Suit: 1
+  - card: {fileID: 4110294066822545484, guid: 4304c01031803234e8d9095ca35bd25a, type: 3}
+    Face: 8
+    Suit: 1
+  - card: {fileID: 4360246712043704932, guid: 0f52c12196cbb6249aa2a1d66592bd7a, type: 3}
+    Face: 9
+    Suit: 1
+  - card: {fileID: 5817580589300888564, guid: bf9ef52e4624622418a536f1c692dade, type: 3}
+    Face: 10
+    Suit: 1
+  - card: {fileID: 3514492011268520444, guid: 95dad5f95f8f72b43948287025fad493, type: 3}
+    Face: 11
+    Suit: 1
+  - card: {fileID: 7815635223697023335, guid: 8044eabfac9bad243b9d78288997af70, type: 3}
+    Face: 12
+    Suit: 1
+  - card: {fileID: 8392796329494350476, guid: 854859175cf483c4dbd1abe0555b44ef, type: 3}
+    Face: 0
+    Suit: 2
+  - card: {fileID: 4785750660368376643, guid: 8a143ec1ee9ee5a43bc24a24e5f561d3, type: 3}
+    Face: 1
+    Suit: 2
+  - card: {fileID: 6782336631651759116, guid: 5c2d14ac262c3344a90f4fcd8b3c7a4c, type: 3}
+    Face: 2
+    Suit: 2
+  - card: {fileID: 1377798410403307962, guid: 78cb5b7267baac345bcfcc35099628b5, type: 3}
+    Face: 3
+    Suit: 2
+  - card: {fileID: 6847903499305017286, guid: ee71762ea9f1e114a815c55e4af2a293, type: 3}
+    Face: 4
+    Suit: 2
+  - card: {fileID: 7727667801967262543, guid: ff471011e2a02b746b18c2965fa837a4, type: 3}
+    Face: 5
+    Suit: 2
+  - card: {fileID: 5493088032586179923, guid: 237e320656d71ba478bf02a6697bf39f, type: 3}
+    Face: 6
+    Suit: 2
+  - card: {fileID: 6361292171808898592, guid: 638ff81a31710ad4098b075115fa1766, type: 3}
+    Face: 7
+    Suit: 2
+  - card: {fileID: 1440528423655942422, guid: 328147913dab75142b2facb0e5ae7db2, type: 3}
+    Face: 8
+    Suit: 2
+  - card: {fileID: 2966267408391207819, guid: 9a3a8660484f57b47af68216408a7332, type: 3}
+    Face: 9
+    Suit: 2
+  - card: {fileID: 2576851993051244246, guid: 03fc491400d5132419fc8a497f7cac53, type: 3}
+    Face: 10
+    Suit: 2
+  - card: {fileID: 7995942636869300575, guid: 15c86885e01584a4f89fe483a9bd561f, type: 3}
+    Face: 11
+    Suit: 2
+  - card: {fileID: 8858208546726933546, guid: e4d443011900be34db0a8c9775e7bf02, type: 3}
+    Face: 12
+    Suit: 2
+  - card: {fileID: 7353104549784777979, guid: 3dc6f7c607880504db4570fb3f5d6f28, type: 3}
+    Face: 0
+    Suit: 3
+  - card: {fileID: 4816643776859758807, guid: 1ebf471639c52ad429376811d3f50dd6, type: 3}
+    Face: 1
+    Suit: 3
+  - card: {fileID: 1658944093479505582, guid: 9694039b3d5574d41a38664d7c4f9f65, type: 3}
+    Face: 2
+    Suit: 3
+  - card: {fileID: 4331741161136982814, guid: b199caa18d807284f896df734a4ff98c, type: 3}
+    Face: 3
+    Suit: 3
+  - card: {fileID: 7687083202412016548, guid: d96ada705e3bfe84f9c7c489c5a245a0, type: 3}
+    Face: 4
+    Suit: 3
+  - card: {fileID: 8252691469687779157, guid: 96675a2cf731c0842ac9093a822e3e5e, type: 3}
+    Face: 5
+    Suit: 3
+  - card: {fileID: 7165126333449671199, guid: 6cad648af722d1f49b8728a4a2be38a9, type: 3}
+    Face: 6
+    Suit: 3
+  - card: {fileID: 6084595711851773590, guid: 2af1b147bba9d5241b60d8e254e0ca23, type: 3}
+    Face: 7
+    Suit: 3
+  - card: {fileID: 3849804544829066637, guid: 4ff2c39a731c1d04cad55059e7f88655, type: 3}
+    Face: 8
+    Suit: 3
+  - card: {fileID: 8176569286784928375, guid: f51cea22d70fc6a4ea59b329378e8d7d, type: 3}
+    Face: 9
+    Suit: 3
+  - card: {fileID: 5815482580088760244, guid: 5a93a1be3a0169c48a384222fb423548, type: 3}
+    Face: 10
+    Suit: 3
+  - card: {fileID: 9049347739714852258, guid: 4c2a433e80a1c504bb43df4fad9a608e, type: 3}
+    Face: 11
+    Suit: 3
+  - card: {fileID: 5994957723849294784, guid: cc8961a4ddec59e46831095583ccd7e3, type: 3}
+    Face: 12
+    Suit: 3
+  positions:
+  - {x: -0.17, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0.17, y: 0, z: 0}
+  - {x: 0.34, y: 0, z: 0}
+  - {x: 0.51, y: 0, z: 0}
